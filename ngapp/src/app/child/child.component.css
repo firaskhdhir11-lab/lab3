@@ -1,0 +1,16 @@
+.child-box {
+  background: white;
+  padding: 18px;
+  border-radius: 16px;
+  margin-top: 25px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.08);
+}
+
+.child-box ul {
+  margin-top: 10px;
+}
+
+.child-box li {
+  padding: 5px 0;
+  font-size: 16px;
+}

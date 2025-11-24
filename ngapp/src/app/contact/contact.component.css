@@ -1,0 +1,13 @@
+.contact-box {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  margin-top: 25px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.08);
+}
+
+.contact-id {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #007bff;
+}

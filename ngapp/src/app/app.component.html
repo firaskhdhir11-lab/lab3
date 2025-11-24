@@ -1,0 +1,10 @@
+<app-header></app-header>
+
+<div class="center-buttons">
+  <button (click)="gotoLogin()">Login Page</button>
+  <button (click)="gotoContact()">Contact Page</button>
+</div>
+
+<app-child [states]="states"></app-child>
+
+<router-outlet></router-outlet>

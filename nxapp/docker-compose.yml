@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  next-app:
+    build: .
+    image: next-app-lab3:latest
+    container_name: next-app-lab3
+    ports:
+      - "3000:3000"
+    restart: unless-stopped

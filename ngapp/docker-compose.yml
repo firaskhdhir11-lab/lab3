@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  angular-app:
+    build: .
+    image: angular-app-lab3:latest
+    container_name: angular-app-lab3
+    ports:
+      - "4200:80"
+    restart: unless-stopped
